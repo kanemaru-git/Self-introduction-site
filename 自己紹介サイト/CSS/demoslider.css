@@ -1,0 +1,49 @@
+.slide {
+  margin: 20vh 0;
+}
+
+.slide .slick-next {
+  right: 100px;
+  top: 70vh;
+}
+.slide .slick-prev {
+  left: 100px;
+  top: 70vh;
+}
+.parent {
+  position: relative;
+}
+.parent img {
+  width: 100%;
+  height: 60vh;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: grab;
+  text-align: center;
+  padding-top: 25vh;
+  opacity: 1;
+}
+.mask:active {
+  cursor: grabbing;
+}
+.mask a {
+  color: aliceblue;
+  font-size: 6vh;
+  text-decoration: none;
+  transition: 2s color ease 0s, 0.7s font-size ease 0s;
+}
+.slick-dots li button:before {
+  font-size: 40px;
+}
+
+/* hover処理 */
+.mask a:hover {
+  color: aqua;
+  font-size: 5vh;
+  text-decoration-line: underline;
+}

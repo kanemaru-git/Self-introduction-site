@@ -1,0 +1,187 @@
+.backbord {
+  background-color: rgba(0, 0, 0, 0.705);
+  padding: 5%;
+  /* fadeinout */
+  opacity: 0;
+  transition: opacity 3s, transform 2s;
+}
+.bb1 {
+  transform: translateY(10px);
+}
+.bb2 {
+  transform: translateX(1000px);
+}
+.bb3 {
+  transform: scale(0.1, 0.1);
+}
+.bb4 {
+  transform: scale(1.1, 1.5);
+}
+.bb5 {
+  transform: rotateX(360deg);
+}
+.bb6 {
+  transform: rotateY(360deg);
+}
+.bb7 {
+  transform: rotateZ(720deg) scale(0.1, 0.1);
+}
+.fadein {
+  opacity: 1;
+  transform: rotateX(0) rotateY(0) rotateZ(0) scale(1, 1);
+}
+
+/* proflie */
+.pagelogo_pro {
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  background-image: url(../IMG/rangoli.jpg);
+  background-size: cover;
+  padding-top: 50vh;
+  text-align: center;
+  font-size: 5vw;
+  border-right: aqua solid 10px;
+  color: aqua;
+}
+
+.greeting {
+  height: 100vh;
+  margin-left: 30%;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-image: url(../IMG/avenue.jpg);
+  color: aliceblue;
+  border-bottom: aqua solid 10px;
+}
+.family {
+  height: 100vh;
+  padding-top: 100px;
+  margin-left: 30%;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-image: url(../IMG/ducks.jpg);
+  background-size: cover;
+  color: rgb(161, 201, 236);
+}
+
+/* carrer */
+.pagelogo_carrer {
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  background-image: url(../IMG/seamless.png);
+  background-size: cover;
+  padding-top: 50vh;
+  text-align: center;
+  font-size: 5vw;
+  border-right: rgb(238, 238, 78) solid 10px;
+  color: rgb(238, 238, 78);
+}
+.school {
+  height: 100vh;
+  margin-left: 30%;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 5%;
+  border-bottom: 10px solid rgb(238, 238, 78);
+  background-image: url(../IMG/classroom.jpg);
+  background-size: cover;
+  color: rgb(23, 238, 173);
+}
+.job {
+  height: 100vh;
+  padding-top: 100px;
+  margin-left: 30%;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-image: url(../IMG/car.jpg);
+  background-size: cover;
+  color: aliceblue;
+}
+
+/* hobby */
+.pagelogo_hobby {
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  background-image: url(../IMG/puzzle-2784468_640.png);
+  background-size: cover;
+  background-position: -350px -170px;
+  padding-top: 50vh;
+  text-align: center;
+  font-size: 5vw;
+  border-right: rgb(88, 250, 56) solid 10px;
+  color: rgb(88, 250, 56);
+}
+.sports {
+  height: 100vh;
+  margin-left: 30%;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-image: url(../IMG/audience.jpg);
+  background-size: cover;
+  color: rgb(132, 228, 94);
+  border-bottom: rgba(88, 250, 56) solid 10px;
+}
+.game {
+  height: 100vh;
+  padding-top: 100px;
+  margin-left: 30%;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-image: url(../IMG/game.jpg);
+  background-size: cover;
+  color: aliceblue;
+  border-bottom: rgb(88, 250, 56) solid 10px;
+}
+.movie {
+  height: 100vh;
+  padding-top: 100px;
+  margin-left: 30%;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-image: url(../IMG/netflix.jpg);
+  background-size: cover;
+  color: rgb(233, 216, 68);
+}
+
+/* トップへ戻るボタン */
+.pagetop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+.pagetop a {
+  display: block;
+  background-color: #ccc;
+  text-align: center;
+  color: #222;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.pagetop a:hover {
+  display: block;
+  background-color: #b2d1fb;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 10px;
+  opacity: 0.5;
+}
+
+/* tooltip */
+strong {
+  text-decoration-line: underline;
+  color: rgb(103, 88, 238);
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOBBY-自己紹介サイト</title>
+
+    <!-- css読み込み -->
+    <!-- jquery UI -->
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <!-- プラグイン　textillate -->
+    <link rel="stylesheet" href="../CSS/animate.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.4/css/all.css"
+    />
+    <!--   nav css   -->
+    <link rel="stylesheet" href="../CSS/demo.css" />
+    <link rel="stylesheet" href="../CSS/sub.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <div class="name">K</div>
+        <div class="name">A</div>
+        <div class="name">N</div>
+        <div class="name">E</div>
+        <div class="name">M</div>
+        <div class="name">A</div>
+        <div class="name">R</div>
+        <div class="name">U</div>
+        <div class="name">&emsp;</div>
+        <div class="name">N</div>
+        <div class="name">O</div>
+        <div class="name">R</div>
+        <div class="name">I</div>
+        <div class="name">T</div>
+        <div class="name">O</div>
+        <div class="name">S</div>
+        <div class="name">H</div>
+        <div class="name">I</div>
+      </div>
+      <ul class="menue">
+        <li class="item"><a href="demo.html">HOME</a></li>
+        <li class="item"><a href="profile.html">PROFILE</a></li>
+        <li class="item"><a href="carrer.html">CARRER</a></li>
+        <li class="item"><a href="hobby.html">HOBBY</a></li>
+      </ul>
+      <div class="hamburgermenu">
+        <i class="fas fa-bars header__icon"></i>
+      </div>
+    </div>
+    <div class="sidebar">
+      <p class="sidebar-item"><a href="demo.html">HOME</a></p>
+      <p class="sidebar-item"><a href="profile.html">PROFILE</a></p>
+      <p class="sidebar-item"><a href="carrer.html">CARRER</a></p>
+      <p class="sidebar-item"><a href="hobby.html">HOBBY</a></p>
+    </div>
+    <!-- pagelogo -->
+    <div class="pagelogo_hobby">HOBBY</div>
+
+    <!-- プロフィールの内容 -->
+    <div class="cover">
+      <div class="scrollfiy sports">
+        <div class="backbord bb5">
+          <h1>SPORTS</h1>
+          <p>
+            スポーツ全般大好きで、特に好きなのがサッカーです。日韓ワールドカップを見て好きになりました。
+          </p>
+          <p>
+            好きなサッカー選手は、<strong
+              title="FCバルセロナ所属。アルゼンチン代表。"
+              >リオネル・メッシ選手</strong
+            >です。
+          </p>
+          <p>海外の試合をテレビやネットでチェックするのが日課です。</p>
+          <p>
+            また、今年の東京オリンピックを楽しみにしていましたが、延期になり残念です。
+          </p>
+        </div>
+      </div>
+      <div class="scrollfiy game">
+        <div class="backbord bb6">
+          <h1>GAME</h1>
+          <p>
+            好きなゲームの種類はアクションゲームです。その中でも特に<strong
+              title="戦略や戦術の要素を持つゲーム"
+              >ストラテジーゲーム</strong
+            >が好きです。
+          </p>
+          <p>
+            現在では世界中のプレイヤーといつでもどこでも対戦できるので、とても楽しいです。
+          </p>
+          <p>
+            ひとりのプレイヤースキルだけでなく、チームの連携や戦略も大切でスポーツと似たところがあります。
+          </p>
+          <p>
+            他にもプロの大会を観戦したり、実況者の動画を参考にしたりしています。
+          </p>
+        </div>
+      </div>
+      <div class="scrollfiy movie">
+        <div class="backbord bb7">
+          <h1>MOVIE</h1>
+          <p>
+            動画配信サイトのYOUTUBEを見ています。最近ではテレビを見ることは少なくなりました。
+          </p>
+          <p>
+            好きな動画をいつでも好きな時に見れるので、とても便利です。特に好きなことをたくさんの人と共有できることが最高です。
+          </p>
+          <p>
+            今は好きなアニメが一話ずつ配信されているので、毎日見ています。
+          </p>
+          <p>面白いyoutuberの動画にもはまっています。</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="pagetop">
+      <a href="#wrap"><i class="fa fa-chevron-up"></i></a>
+    </p>
+
+    <!-- スクリプト読み込み -->
+    <!-- jquery -->
+    <script src="../JS/jquery-3.5.1-min.js"></script>
+    <!-- jquery UI -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+    ></script>
+    <!-- プラグイン　textillate -->
+    <script src="../JS/jquery.textillate.js"></script>
+    <script src="../JS/jquery.lettering.js"></script>
+    <!-- プラグイン　Scrollify -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
+    <!-- sidebar.js -->
+    <script src="../JS/sidebar.js"></script>
+    <script>
+      $(function () {
+        $(".pagelogo_hobby").textillate({
+          loop: true,
+          in: {
+            effect: "fadeInUpBig",
+            shuffle: true,
+            delayScale: 7,
+          },
+          out: {
+            effect: "hinge",
+            shuffle: true,
+            delayScale: 3,
+          },
+        });
+      });
+      $.scrollify({ section: ".scrollfiy" });
+      $(function () {
+        $(".backbord").tooltip({
+          track: true,
+        });
+      });
+    </script>
+  </body>
+</html>
